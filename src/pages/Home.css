@@ -1,0 +1,72 @@
+/* PostForm.css */
+.post-button {
+  margin-left: 85%;
+  border-radius: 50%;
+  height: 5%;
+  width: 5%;
+}
+
+.btn .btn-primary{
+  margin-bottom: 5%;
+}
+
+.post-container {
+  justify-content: space-between;
+  display: flex;
+  align-content: center;
+  height:75%;
+  width: 35%;
+  flex-wrap: wrap; /* Added */
+  flex-direction: column; /* Changed to row */
+  margin-top: 3%;
+  margin-left: 36%;
+  margin-bottom: 5%;
+}
+
+.post {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  height: 500px;
+  width: 700px;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.post-image {
+  height: 400px; /* Each image is now 25% smaller */
+  width: 100%; /* Width remains the same */
+  border-radius: 5%;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45px;
+  height: 45px; /* Adjust height for better visibility */
+  margin-right: 20%;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.toggle-comments-btn {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-comments-btn:hover {
+  background-color: #0056b3;
+}
+
+.comments-section {
+  margin-top: 20px;
+  transition: max-height 0.3s ease-out;
+}
